@@ -26,7 +26,7 @@ def login():
 
 
     #Geckodriver path
-    geckodriver_path = 'C:/Users/Isaac/Downloads/geckodriver-v0.34.0-win32'
+    geckodriver_path = 'PATH FOR GECKODRIVER'
     os.environ['PATH'] += os.pathsep + geckodriver_path
     # Create a Firefox WebDriver instance with headless option
     driver = webdriver.Firefox(options=options)
